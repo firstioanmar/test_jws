@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 Route::get('/soal1', 'Soal1Controller@index');
 Route::get('/soal2', 'Soal2Controller@index');
+// Route::post('/bubble_sort', 'Soal2Controller@bubble_sort');

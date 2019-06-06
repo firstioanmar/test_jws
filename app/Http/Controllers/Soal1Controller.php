@@ -20,9 +20,9 @@ class Soal1Controller extends Controller
           // syarat jika ada data pada array lebih dari satu maka di nyatakan sama(duplikasi)
           if ($x > 1) {
             $duplicate = $value;
+            // berhenti jika sudah bertemu dengan dupikasi pertama
+            break;
           }
-          // berhenti jika sudah bertemu dengan dupikasi pertama
-          break;
         }
 
       }

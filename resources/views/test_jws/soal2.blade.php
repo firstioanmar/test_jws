@@ -22,7 +22,7 @@
                   <input class="form-control" type="text" name="sort_query[]" value="{{ old('sort_query[]') }}">
                 </div>
                 <button class="btn btn-outline-primary" name="sort" value="1" type="submit">Sort Ascending</button>
-                <button class="btn btn-outline-info" name="sort" value="2" type="submit">Sort Descending</button>
+                <button class="btn btn-outline-primary" name="sort" value="2" type="submit">Sort Descending</button>
               </form>
 
               @if (!empty($arr_len))
